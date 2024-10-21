@@ -7,23 +7,26 @@
     <title>Movie App</title>
     <link rel="stylesheet" href="details.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
 </head>
 
 <body>
 
     <nav>
 
-        <h1 class="material-symbols-outlined">arrow_back</h1>
-
         <h1> <b> Movie App </b> </h1>
 
         <div class="movieInput">
 
-            <input type="text" placeholder="Search for a movie" class="">
+            <input type="text" placeholder="Search for a movie" class="" size="30">
 
             <button class="material-symbols-outlined">search</button>
 
         </div>
+
+        <p class="material-symbols-outlined">home</p>
 
     </nav>
 
@@ -35,21 +38,65 @@
 
             <div class="descripion">
 
-                <div class="title"><h1>Movie title</h1></div>
+                <div class="title flex">
+                    <h1>Movie title</h1>
+                </div>
 
-                <div class="ratings">Ratings</div>
+                <div class="ratings flex">
+                    
+                    <p>Ratings:</p>
 
-                <div class="summary">Movie cast and summary</div>
+                    <p class="info text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates, dolore.</p>
 
-                <div class="director">Director</div>
+                </div>
 
-                <div class="actors">Actors</div>
+                <div class="summary flex">
+                    
+                    <p>Summary:</p>
+                    
+                    <p class="info text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus nam odio ab. Assumenda, sapiente velit temporibus, sed quisquam eveniet facilis recusandae accusamus at exercitationem molestiae aliquid dolorem ea deserunt mollitia!</p>
 
-                <div class="genre">Genre</div>
+                </div>
 
-                <div class="languages">Language</div>
+                <div class="director flex">
 
-                <div class="awards">Awards</div>
+                    <p>Director:</p>
+                    
+                    <p class="info text">Lorem, ipsum dolor.</p>
+
+                </div>
+
+                <div class="actors flex">
+                    
+                    <p>Actors:</p>
+
+                    <p class="info text">Lorem ipsum dolor sit amet.</p>
+
+                </div>
+
+                <div class="genre flex">
+                    
+                    <p>Genre:</p>
+                    
+                    <p class="info text">Lorem, ipsum.</p>
+
+                </div>
+
+                <div class="languages flex">
+                    
+                    <p>Language:</p>
+                    
+                    <p class="info text">English</p>
+
+                </div>
+
+                <div class="awards flex">
+                    
+                    <p>Awards:</p>
+
+                    <p class="info text">Oscar</p>
+
+                </div>
 
             </div>
 
@@ -62,6 +109,8 @@
     </section>
 
     <footer>
+
+        <p>Movie App</p>
 
         <p>&copy; 2024 Movie Database</p>
 

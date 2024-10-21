@@ -4,14 +4,25 @@
 }
 
 body{
-    background-color: darkgrey;
+    --tw-bg-opacity: 1;
+    background-color: rgb(15 23 30 / var(--tw-bg-opacity));
+    font-family: Raleway;
+    color: white;
 }
 
 nav{
-    min-height: 5vh;
-    background-color: silver;
+    height: 6rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(26 36 47 / var(--tw-bg-opacity));
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+nav a{
+    text-decoration: none;
 }
 
 .movieInput{
@@ -25,11 +36,12 @@ nav{
 
 .movieInput button{
     width: 50px;
+    height: 50px;
 }
 
 .detail{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -40,7 +52,26 @@ nav{
     justify-content: space-between;
 }
 
+.info{
+    color: #79b8f3;
+    width: 50vw;
+}
+
+.text{
+    text-wrap: wrap;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
 footer{
+    padding: 10px;
     margin-top: 10px;
     text-align: center;
+    --tw-bg-opacity: 1;
+    background-color: rgb(26 36 47 / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
 }

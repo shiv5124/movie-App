@@ -4,14 +4,25 @@
 }
 
 body{
-    background-color: darkgrey;
+    --tw-bg-opacity: 1;
+    background-color: rgb(15 23 30 / var(--tw-bg-opacity));
+    font-family: Raleway;
+    color: white;
 }
 
 nav{
-    min-height: 5vh;
-    background-color: silver;
+    height: 6rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(26 36 47 / var(--tw-bg-opacity));
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+nav a{
+    text-decoration: none;
 }
 
 .movieInput{
@@ -25,25 +36,39 @@ nav{
 
 .movieInput button{
     width: 50px;
+    height: 50px;
 }
 
 .container{
-    background-color: grey;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
 .card{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    row-gap: 10px;
     margin-top: 10px;
     width: 220px;
-    height: 300px;
+    height: 280px;
     text-align: center;
-    background-color: lightslategray;
     border: 2px solid black;
 }
 
+.movie-desc{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
 footer{
+    padding: 10px;
     margin-top: 10px;
     text-align: center;
+    --tw-bg-opacity: 1;
+    background-color: rgb(26 36 47 / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
 }
